@@ -44,6 +44,15 @@ TARGET_CORE_GMS_EXTRAS := true
 
 TARGET_DEFAULT_PIXEL_LAUNCHER := false
 
+# Addons
+TARGET_HAS_UDFPS := true
+
+# Ship Google Camera
+TARGET_PREBUILT_GOOGLE_CAMERA := true
+
+# Ship Matlog
+TARGET_SHIPS_MATLOG := true
+
 # Device identifier. This must come after all inclusions
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 6
